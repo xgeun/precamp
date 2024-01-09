@@ -1,0 +1,118 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* button{
+    cursor: pointer;
+} */
+
+.join{
+    width: 540px;
+    height: 960px;
+    border: 1px solid #ededed;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.7);
+}
+
+.join h1{
+    margin: 30px 0;
+    text-align: center;
+    color: #265cc0;
+    font-size: 32px;
+}
+
+.join .flexBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join .flexBox input{
+    width: 380px;
+    height: 60px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border-color: #d2d2d2;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.join .flexBox .phoneFlex{
+    width: 380px;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.join .flexBox .phoneFlex input{
+    width: 100px;
+    height: 40px;
+}
+
+.center{
+    width: 380px;
+    margin: 0 auto;
+}
+.code, .confirm{
+    width: 380px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #265cc0;
+}
+
+.code button, .confirm button{
+    width: 120px;
+    height: 40px;
+}
+.code button{
+    background-color: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    color: #265cc0;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.confirm button{
+    background-color: #265cc0;
+    border: 1px solid #d2d2d2;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.location{
+    width: 380px;
+    height: 60px;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.radioBox{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.line{
+    width: 380px;
+    height: 1px;
+    background-color: #e6e6e6;
+    margin: 0 auto;
+}
+
+#submit{
+    width: 380px;
+    height: 75px;
+    border: 1px solid #0068ff;
+    color: #0068ff;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 7px;
+    
+}
