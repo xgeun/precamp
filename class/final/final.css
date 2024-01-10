@@ -71,15 +71,12 @@
     background-color: #fff;
     border: 1px solid #d2d2d2;
     border-radius: 7px;
-    color: #265cc0;
     font-size: 16px;
     margin-left: 20px;
 }
 .confirm button{
-    background-color: #265cc0;
     border: 1px solid #d2d2d2;
     border-radius: 7px;
-    color: #fff;
     font-size: 16px;
     margin-left: 20px;
 }
@@ -109,10 +106,15 @@
 #submit{
     width: 380px;
     height: 75px;
-    border: 1px solid #0068ff;
-    color: #0068ff;
+    /* border: 1px solid #0068ff; */
+    /* color: #0068ff; */
     font-size: 16px;
     background-color: #fff;
     border-radius: 7px;
-    
+}
+
+.error {
+    color: red;
+    height: 10px;
+    font-size: 11px;
 }
